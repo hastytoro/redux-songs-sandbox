@@ -3,10 +3,11 @@ import { combineReducers } from "redux";
 // Reducers (departments):
 const songsReducer = () => {
   return [
-    { title: "no scrubs", duration: "4:05" },
-    { title: "macarena", duration: "2:05" },
-    { title: "all stars", duration: "5:05" },
-    { title: "teen spirit", duration: "3:05" },
+    { title: "No Time to Die", date: "2021" },
+    { title: "Spectre", date: "2015" },
+    { title: "Skyfall", date: "2012" },
+    { title: "Quantum of Solace", date: "2008" },
+    { title: "Casino Royale", date: "2006" },
   ];
 };
 
